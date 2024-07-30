@@ -1,0 +1,78 @@
+html {
+  background-image: -moz-linear-gradient(to bottom, white 0%, #facd8a 100%);
+  background-image: -webkit-linear-gradient(to bottom, white 0%, #facd8a 100%);
+  background-image: -o-linear-gradient(to bottom, white 0%, #facd8a 100%);
+  background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
+}
+
+header {
+  --text-shadow: 1.5px 1.5px;
+}
+
+h1 {
+  color: orange;
+  text-shadow: 1.5px 1.5px black;
+}
+img {
+  width: 80px;
+  float: left;
+  padding: 1%;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: 150%;
+}
+
+#h4 {
+  font-size: 100%;
+}
+#border {
+  border-bottom: 2px solid orange;
+  padding: 0.75%;
+}
+
+body {
+  border: 2px solid;
+  margin-top: 5%;
+  margin-left: 12.5%;
+  margin-bottom: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  background-color: white;
+  width: 75%;
+}
+main {
+}
+section {
+  float: left;
+  width: 55%;
+  --background-color: whitesmoke;
+}
+aside {
+  float: right;
+  width: 40%;
+  background-color: #facd8a;
+  color: black;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+#tit {
+  color: maroon;
+  font-size: 100%;
+}
+
+#tit1 {
+  color: maroon;
+  font-size: 100%;
+}
+
+footer {
+  clear: both;
+  border-top: 2px solid orange;
+  padding: 0.5%;
+  text-align: right;
+}
